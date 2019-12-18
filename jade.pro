@@ -8,13 +8,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 CONFIG += c++11
 
+INCLUDEPATH += source
+
 SOURCES += \
-	source/DrawingItemPoint.cpp \
-	source/MainWindow.cpp \
+    source/DrawingItem.cpp \
+    source/DrawingItemContainer.cpp \
+    source/DrawingItemPoint.cpp \
+    source/MainWindow.cpp \
 	source/main.cpp
 
 HEADERS += \
-	source/DrawingItemPoint.h \
+    source/DrawingItem.h \
+    source/DrawingItemContainer.h \
+    source/DrawingItemPoint.h \
 	source/MainWindow.h
 
 # Default rules for deployment.
